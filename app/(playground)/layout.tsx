@@ -21,7 +21,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="container flex h-14 items-center sm:justify-between">
           <div className="flex items-center space-x-4">
             <Link href="/">
-              <Icons.logo />
+              <Icons.brand className="h-8 w-auto" />
               <span className="sr-only">{siteConfig.name}</span>
             </Link>
             <MainNav />
